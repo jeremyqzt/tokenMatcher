@@ -6,7 +6,9 @@ Possible uses for the application is to scan through a code base for per-functio
 After finishing the comparision, lines missing the token are printed. Utilize a redirect (i.e. > or >> ) if a file output is required. 
 
 # Usage
+```
 python tokMatch.py -p 1 -t ".c" -r 'some token' /path/to/files
+```
 
 # Testing
 Tested briefly with python 2.7 and 3.5
